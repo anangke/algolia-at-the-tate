@@ -1,20 +1,27 @@
-import express, { Request, Response, NextFunction } from 'express'
-import path from 'path'
+import express, { Request, Response, NextFunction } from "express";
+import path from "path";
 
-const app = express()
+const app = express();
 
-app.use(express.static(path.join(__dirname, '../public')))
+import os from "os";
 
-app.get('/', (req: Request, res: Response, next: NextFunction): void => {
-    try {
-        res.send('Hello World')
-    } catch (error) {
-        next(error)
-    }
-})
+app.use(express.static(path.join(__dirname, "../public")));
 
-const PORT = 3002
+app.get("/", (req: Request, res: Response, next: NextFunction): void => {
+  try {
+    res.send("Here to serve!");
+  } catch (error) {
+    next(error);
+  }
+});
+
+app.get("/api/getUsername", (req, res) =>
+  res.send({ username: os.userInfo().username }),
+);
+
+const PORT = 3002;
 
 app.listen(PORT, () => {
-    console.log(`App listening on port ${PORT}`)
-})
+  // eslint-disable-next-line no-console
+  console.log(`App listening on port ${PORT}`);
+});

@@ -1,0 +1,5 @@
+node_modules/
+dist/*.js
+public/*.js
+public/bundle.js
+webpack.config.js

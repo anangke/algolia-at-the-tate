@@ -1,0 +1,151 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+}
+
+em {
+  background: cyan;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50px;
+  background-image: url("https://d3d00swyhr67nd.cloudfront.net/_source/TATE_BRITAIN_location_image.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  height: 350px;
+  color: #815c17;
+  margin: 0.5rem auto 0 auto;
+  box-shadow: 0 0 0 1px rgba(35, 38, 59, 0.05),
+    0 1px 3px 0 rgba(35, 38, 59, 0.15);
+}
+
+.header a {
+  color: #815c17;
+  text-decoration: none;
+}
+
+.header-title {
+  flex-direction: row;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.header-subtitle {
+  flex-direction: row;
+  font-size: 1.2rem;
+}
+
+figcaption {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.searchbox-section {
+  margin-top: 0.5em;
+}
+
+.searchbox-section .ais-SearchBox-form {
+  min-width: 800px;
+  width: 100%;
+}
+
+.search-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5em 3em;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+  padding-right: 1em;
+  max-width: 300px;
+}
+
+.search-panel__results .ais-Hits-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.search-panel__results .ais-Hits-item {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: calc(33.33% - 60px);
+  box-sizing: content-box;
+  position: relative;
+  justify-content: center;
+  min-width: 180px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+article:first-child {
+  padding-bottom: 0.5em;
+}
+
+.thumbimg {
+  height: 100%;
+  width: 100%;
+}
+
+.nothumb {
+  position: relative;
+  min-width: 190px;
+  min-height: 230px;
+  border: 1px solid darkslategrey;
+  background-color: lightgrey;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' fill='%2523f0f0f0' viewBox='0 0 100 100'%3E%3Cline x1='0' y1='0' x2='100' y2='100' stroke='darkslategrey' vector-effect='non-scaling-stroke'/%3E%3Cline x1='0' y1='100' x2='100' y2='0' stroke='black' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+}
+
+.nothumb > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
