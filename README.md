@@ -52,6 +52,7 @@ Open browser and navigate to application
 
 ```
 http://localhost:3200
+```
 
 ##Notes
 
