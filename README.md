@@ -89,10 +89,12 @@ My chosen dataset probably limited how much I was able to configure or experimen
 
 
 ###Web Application, Stack and Environment
---Setup/configured a boiler plate repo with Express, React and TypeScript with webpack, nodemon, ESlint and Prettier
->IDE: VSCode
---Cloned boilerplate and created a new repo for the assessment [algolia-at-the-tate](https://github.com/anangke/algolia-at-the-tate.git)
---Imported main dependencies (in addition to boiler plate)
+Setup/configured a boiler plate repo with Express, React and TypeScript with webpack, nodemon, ESlint and Prettier
+
+####IDE: VSCode
+
+Cloned boilerplate and created a new repo for the assessment [algolia-at-the-tate](https://github.com/anangke/algolia-at-the-tate.git)
+Imported main dependencies (in addition to boiler plate)
 * algoliasearch
 * react-instantsearch-hooks
 * search-insights
