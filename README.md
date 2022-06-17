@@ -2,9 +2,14 @@
 
 An Express / React / TypeScript application incorporating Algolia Search and and the React Instant Search Hooks API. This application lets a user search across the Tate artworks collection and artists
 
+
 ## Get started
 
-Clone the repository
+###Browse the page on GitHub Pages
+
+To browse the page please use the following link [https://anangke.github.io/algolia-at-the-tate/public/index.html](https://anangke.github.io/algolia-at-the-tate/public/index.html)
+
+###Clone the repository
 
 ```
 git clone --depth 1 https://github.com/anangke/algolia-at-the-tate.git
